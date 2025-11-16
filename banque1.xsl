@@ -31,7 +31,7 @@
                         <tr>
                             <td><xsl:value-of select="@type"/></td>
                             <td><xsl:value-of select="@date"/></td>
-                            <td><xsl:value-of select="@montant"/> €</td>
+                            <td><xsl:value-of select="@montant"/></td>
                             <td><xsl:value-of select="@description"/></td>
                         </tr>
                     </xsl:for-each>
